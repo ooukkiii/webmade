@@ -1,0 +1,80 @@
+@font-face {
+  font-family: '학교안심';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimTuhoR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  transform : rotate(0.04deg); 
+}
+@font-face {
+  font-family: '펀플로';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/FUNFLOWSURVIVORKR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  transform : rotate(0.04deg); 
+}
+*, *:after, *::before {box-sizing: border-box;}
+#wrap {min-width: 320px;}
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrapper{
+    height: 100%;
+  }
+  html, body {
+    height: 100%;
+  }
+
+  .content {
+    font-family: '펀플로';
+    font-size: 20fx;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  .lu {
+    font-size: 30px;
+    padding: 10%;
+    color: white;
+  }
+
+  img {
+    width: 100%;
+    text-align: center;
+  }
+
+  menu {
+    font-size: 40px;
+    padding: 30px, 30px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    position: fixed;
+    background-color: black;
+    opacity: 65%;
+    width: 100%;
+    transform: translateY(-100%);
+    font-family: '학교안심';
+    
+  }
+  .footer > a footer
+
+  .임팩트 {
+    font-family: '학교안심';
+    padding: 20px, 30px;
+  }
+
+  .우끼 {
+    font-family: '펀플로';
+  }
+
